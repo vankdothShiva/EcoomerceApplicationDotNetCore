@@ -1,0 +1,185 @@
+<!-- ══════════════════════════════════════════ -->
+  <!-- LOGIN PAGE LAYOUT                         -->
+  <!-- ══════════════════════════════════════════ -->
+  <div class="row justify-content-center mt-5">
+    <div class="col-md-5">
+
+      <!-- Card Container -->
+      <div class="card shadow-lg border-0 rounded-4">
+
+        <!-- Card Header -->
+        <div class="card-header bg-dark text-white text-center
+                    rounded-top-4 py-4">
+          <h3 class="mb-0">🔐 Welcome Back</h3>
+          <p class="mb-0 text-secondary">Login to ShopAPI</p>
+        </div>
+
+        <!-- Card Body -->
+        <div class="card-body p-4">
+
+          <!-- ── Success Message ── -->
+          @if (successMessage) {
+            <div class="alert alert-success alert-dismissible">
+              {{ successMessage }}
+            </div>
+          }
+
+          <!-- ── Error Message ── -->
+          @if (errorMessage) {
+            <div class="alert alert-danger alert-dismissible">
+              {{ errorMessage }}
+              <button type="button" class="btn-close"
+                (click)="errorMessage = ''">
+              </button>
+            </div>
+          }
+
+          <!-- ══════════════════════════════ -->
+          <!-- LOGIN FORM                    -->
+          <!-- [formGroup] links to our      -->
+          <!-- TypeScript FormGroup object   -->
+          <!-- ══════════════════════════════ -->
+          <form [formGroup]="loginForm"
+                (ngSubmit)="onSubmit()">
+
+            <!-- Email Field -->
+            <div class="mb-3">
+              <label class="form-label fw-semibold">
+                📧 Email Address
+              </label>
+              <input
+                type="email"
+                class="form-control"
+                [class.is-invalid]="isFieldInvalid('email')"
+                formControlName="email"
+                placeholder="Enter your email"
+              />
+              <!-- Show error if field touched and invalid -->
+              @if (isFieldInvalid('email')) {
+                <div class="invalid-feedback">
+                  @if (f['email'].errors?.['required']) {
+                    Email is required.
+                  }
+                  @if (f['email'].errors?.['email']) {
+                    Please enter a valid email.
+                  }
+                </div>
+              }
+            </div>
+
+            <!-- Password Field -->
+            <div class="mb-3">
+              <label class="form-label fw-semibold">
+                🔑 Password
+              </label>
+              <div class="input-group">
+                <!-- Toggle between text/password type -->
+                <input
+                  [type]="showPassword ? 'text' : 'password'"
+                  class="form-control"
+                  [class.is-invalid]="isFieldInvalid('password')"
+                  formControlName="password"
+                  placeholder="Enter your password"
+                />
+                <!-- Show/Hide password button -->
+                <button
+                  class="btn btn-outline-secondary"
+                  type="button"
+                  (click)="showPassword = !showPassword">
+                  {{ showPassword ? '🙈' : '👁️' }}
+                </button>
+              </div>
+              @if (isFieldInvalid('password')) {
+                <div class="text-danger small mt-1">
+                  Password is required.
+                </div>
+              }
+            </div>
+
+            <!-- Forgot Password Link -->
+            <div class="text-end mb-3">
+              <a routerLink="/auth/forgot-password"
+                 class="text-decoration-none small">
+                Forgot password?
+              </a>
+            </div>
+
+            <!-- Submit Button -->
+            <button
+              type="submit"
+              class="btn btn-dark w-100 py-2"
+              [disabled]="isLoading">
+              @if (isLoading) {
+                <!-- Spinner while loading -->
+                <span class="spinner-border spinner-border-sm
+                             me-2"></span>
+                Logging in...
+              } @else {
+                Login
+              }
+            </button>
+
+          </form>
+
+          <!-- Divider -->
+          <hr class="my-4">
+
+          <!-- Facebook Login -->
+          <a href="https://localhost:7245/api/externalauth/login-facebook"
+             class="btn btn-primary w-100 mb-3">
+            <i class="me-2">📘</i> Continue with Facebook
+          </a>
+
+          <!-- Register Link -->
+          <p class="text-center mb-0">
+            Don't have an account?
+            <a routerLink="/auth/register"
+               class="text-decoration-none fw-bold">
+              Register here
+            </a>
+          </p>
+
+        </div>
+      </div>
+
+      <!-- Test Accounts Card (for development) -->
+      <div class="card mt-3 border-warning">
+        <div class="card-body p-3">
+          <h6 class="text-warning mb-2">
+            🧪 Test Accounts
+          </h6>
+          <small class="text-muted">
+            <div>
+              <strong>Admin:</strong>
+              admin&#64;shopapi.com / Admin&#64;123456
+            </div>
+            <div>
+              <strong>Seller:</strong>
+              seller&#64;shopapi.com / Seller&#64;123456
+            </div>
+            <div>
+              <strong>Customer:</strong>
+              customer&#64;shopapi.com / Customer&#64;123456
+            </div>
+          </small>
+          <!-- Quick fill buttons -->
+          <div class="mt-2 d-flex gap-2">
+            <button class="btn btn-sm btn-outline-warning"
+              (click)="fillTestAccount('admin')">
+              Admin
+            </button>
+            <button class="btn btn-sm btn-outline-info"
+              (click)="fillTestAccount('seller')">
+              Seller
+            </button>
+            <button class="btn btn-sm btn-outline-success"
+              (click)="fillTestAccount('customer')">
+              Customer
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  `

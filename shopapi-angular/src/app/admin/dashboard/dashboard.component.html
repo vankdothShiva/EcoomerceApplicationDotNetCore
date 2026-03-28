@@ -1,0 +1,115 @@
+  <div class="row">
+    <div class="col-12 mb-4">
+      <h2>👑 Admin Dashboard</h2>
+    </div>
+
+    <!-- Loading -->
+    @if (isLoading) {
+      <div class="col-12 text-center py-5">
+        <div class="spinner-border text-dark"></div>
+      </div>
+    }
+
+    @if (!isLoading && stats) {
+
+      <!-- Stats Cards -->
+      <div class="col-md-3 mb-4">
+        <div class="card border-0 shadow-sm rounded-4
+                    bg-dark text-white text-center p-4">
+          <div style="font-size:2.5rem">👥</div>
+          <h2>{{ stats.totalUsers }}</h2>
+          <p class="mb-0">Total Users</p>
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-4">
+        <div class="card border-0 shadow-sm rounded-4
+                    bg-primary text-white text-center p-4">
+          <div style="font-size:2.5rem">📦</div>
+          <h2>{{ stats.totalProducts }}</h2>
+          <p class="mb-0">Products</p>
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-4">
+        <div class="card border-0 shadow-sm rounded-4
+                    bg-success text-white text-center p-4">
+          <div style="font-size:2.5rem">🛒</div>
+          <h2>{{ stats.totalOrders }}</h2>
+          <p class="mb-0">Total Orders</p>
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-4">
+        <div class="card border-0 shadow-sm rounded-4
+                    bg-warning text-dark text-center p-4">
+          <div style="font-size:2.5rem">💰</div>
+          <h2>₹{{ stats.totalRevenue | number:'1.0-0' }}</h2>
+          <p class="mb-0">Revenue</p>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-12 mb-4">
+        <div class="d-flex gap-3">
+          <a routerLink="/admin/users"
+             class="btn btn-dark">
+            👥 Manage Users
+          </a>
+          <a routerLink="/products"
+             class="btn btn-outline-dark">
+            📦 View Products
+          </a>
+        </div>
+      </div>
+
+      <!-- Recent Orders -->
+      <div class="col-12">
+        <div class="card border-0 shadow-sm rounded-4">
+          <div class="card-body">
+            <h5 class="mb-4">Recent Orders</h5>
+
+            <div class="table-responsive">
+              <table class="table table-hover">
+                <thead class="table-dark">
+                  <tr>
+                    <th>Order ID</th>
+                    <th>Customer</th>
+                    <th>Amount</th>
+                    <th>Status</th>
+                    <th>Date</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  @for (order of recentOrders;
+                        track order.id) {
+                    <tr>
+                      <td>#{{ order.id }}</td>
+                      <td>{{ order.customer }}</td>
+                      <td>
+                        ₹{{ order.totalAmount
+                            | number:'1.2-2' }}
+                      </td>
+                      <td>
+                        <span class="badge"
+                          [class]="getStatusClass(
+                            order.status)">
+                          {{ order.status }}
+                        </span>
+                      </td>
+                      <td>
+                        {{ order.createdAt
+                           | date:'shortDate' }}
+                      </td>
+                    </tr>
+                  }
+                </tbody>
+              </table>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    }
+  </div>

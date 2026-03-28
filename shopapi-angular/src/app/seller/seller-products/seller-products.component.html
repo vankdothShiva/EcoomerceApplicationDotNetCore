@@ -1,0 +1,166 @@
+  <div class="row">
+    <div class="col-12 mb-4">
+      <div class="d-flex justify-content-between">
+        <h2>🏪 My Products</h2>
+        <button class="btn btn-dark"
+                (click)="showForm = !showForm">
+          {{ showForm ? 'Cancel' : '+ Add Product' }}
+        </button>
+      </div>
+    </div>
+
+    <!-- Add Product Form -->
+    @if (showForm) {
+      <div class="col-12 mb-4">
+        <div class="card border-0 shadow-sm rounded-4">
+          <div class="card-body p-4">
+            <h5>Add New Product</h5>
+
+            @if (formSuccess) {
+              <div class="alert alert-success">
+                ✅ Product added successfully!
+              </div>
+            }
+            @if (formError) {
+              <div class="alert alert-danger">
+                {{ formError }}
+              </div>
+            }
+
+            <form [formGroup]="productForm"
+                  (ngSubmit)="addProduct()">
+
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label class="form-label">
+                    Product Name *
+                  </label>
+                  <input type="text"
+                    class="form-control"
+                    formControlName="name"
+                    placeholder="iPhone 15 Pro"
+                  />
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label class="form-label">Category *</label>
+                  <input type="text"
+                    class="form-control"
+                    formControlName="category"
+                    placeholder="Electronics"
+                  />
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label">Description *</label>
+                <textarea class="form-control" rows="3"
+                  formControlName="description"
+                  placeholder="Product description...">
+                </textarea>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label class="form-label">Price (₹) *</label>
+                  <input type="number"
+                    class="form-control"
+                    formControlName="price"
+                    placeholder="999.99"
+                  />
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label class="form-label">Stock *</label>
+                  <input type="number"
+                    class="form-control"
+                    formControlName="stock"
+                    placeholder="50"
+                  />
+                </div>
+              </div>
+
+              <button type="submit"
+                class="btn btn-dark"
+                [disabled]="isAdding">
+                @if (isAdding) {
+                  <span class="spinner-border
+                               spinner-border-sm me-2">
+                  </span>
+                }
+                Add Product
+              </button>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    }
+
+    <!-- Products Table -->
+    @if (isLoading) {
+      <div class="col-12 text-center py-5">
+        <div class="spinner-border text-dark"></div>
+      </div>
+    }
+
+    @if (!isLoading) {
+      <div class="col-12">
+        <div class="card border-0 shadow-sm rounded-4">
+          <div class="card-body">
+
+            @if (products.length === 0) {
+              <div class="text-center py-4">
+                <div style="font-size:3rem">📦</div>
+                <p class="text-muted">
+                  No products yet. Add your first product!
+                </p>
+              </div>
+            }
+
+            @if (products.length > 0) {
+              <div class="table-responsive">
+                <table class="table table-hover align-middle">
+                  <thead class="table-dark">
+                    <tr>
+                      <th>Name</th>
+                      <th>Category</th>
+                      <th>Price</th>
+                      <th>Stock</th>
+                      <th>Status</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    @for (p of products; track p.id) {
+                      <tr>
+                        <td>{{ p.name }}</td>
+                        <td>
+                          <span class="badge bg-secondary">
+                            {{ p.category }}
+                          </span>
+                        </td>
+                        <td>
+                          ₹{{ p.price | number:'1.2-2' }}
+                        </td>
+                        <td>{{ p.stock }}</td>
+                        <td>
+                          @if (p.isActive) {
+                            <span class="badge bg-success">
+                              Active
+                            </span>
+                          } @else {
+                            <span class="badge bg-danger">
+                              Inactive
+                            </span>
+                          }
+                        </td>
+                      </tr>
+                    }
+                  </tbody>
+                </table>
+              </div>
+            }
+
+          </div>
+        </div>
+      </div>
+    }
+  </div>

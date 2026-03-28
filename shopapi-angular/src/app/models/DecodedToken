@@ -1,0 +1,7 @@
+export interface DecodedToken {
+  nameid:   string;   // user ID
+  unique_name: string; // username
+  email:    string;
+  role:     string | string[];
+  exp:      number;   // expiry timestamp
+}

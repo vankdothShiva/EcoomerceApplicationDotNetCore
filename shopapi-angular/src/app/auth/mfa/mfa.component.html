@@ -1,0 +1,119 @@
+ <div class="row justify-content-center mt-5">
+    <div class="col-md-5">
+      <div class="card shadow-lg border-0 rounded-4">
+
+        <!-- Header -->
+        <div class="card-header bg-dark text-white
+                    text-center rounded-top-4 py-4">
+          <h3 class="mb-0">🔐 Two-Factor Verification</h3>
+          <p class="mb-0 text-secondary">
+            Enter the code sent to {{ email }}
+          </p>
+        </div>
+
+        <div class="card-body p-4">
+
+          <!-- Error -->
+          @if (errorMessage) {
+            <div class="alert alert-danger">
+              {{ errorMessage }}
+            </div>
+          }
+
+          <!-- OTP Type tabs -->
+          <div class="d-flex gap-2 mb-4">
+            <button
+              class="btn flex-fill"
+              [class.btn-dark]="activeTab === 'email'"
+              [class.btn-outline-dark]="activeTab !== 'email'"
+              (click)="activeTab = 'email'">
+              📧 Email OTP
+            </button>
+            <button
+              class="btn flex-fill"
+              [class.btn-dark]="activeTab === 'authenticator'"
+              [class.btn-outline-dark]="activeTab !== 'authenticator'"
+              (click)="activeTab = 'authenticator'">
+              📱 Authenticator
+            </button>
+          </div>
+
+          <!-- OTP Form -->
+          <form [formGroup]="otpForm"
+                (ngSubmit)="onSubmit()">
+
+            <div class="mb-4">
+              <label class="form-label fw-semibold text-center
+                            d-block">
+                @if (activeTab === 'email') {
+                  Enter the 6-digit code from your email
+                } @else {
+                  Enter the 6-digit code from your
+                  Authenticator App
+                }
+              </label>
+
+              <!-- OTP Input - large and centered -->
+              <input
+                type="text"
+                class="form-control form-control-lg text-center"
+                [class.is-invalid]="isFieldInvalid('otp')"
+                formControlName="otp"
+                placeholder="000000"
+                maxlength="6"
+                style="font-size: 2rem;
+                       letter-spacing: 0.5rem;
+                       font-weight: bold;"
+              />
+              @if (isFieldInvalid('otp')) {
+                <div class="invalid-feedback text-center">
+                  Please enter the 6-digit code.
+                </div>
+              }
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit"
+              class="btn btn-dark w-100 py-2"
+              [disabled]="isLoading">
+              @if (isLoading) {
+                <span class="spinner-border spinner-border-sm
+                             me-2"></span>
+                Verifying...
+              } @else {
+                ✅ Verify Code
+              }
+            </button>
+
+          </form>
+
+          <!-- Resend OTP (email only) -->
+          @if (activeTab === 'email') {
+            <div class="text-center mt-3">
+              <small class="text-muted">
+                Didn't receive the code?
+              </small>
+              <button class="btn btn-link btn-sm p-0 ms-1"
+                      (click)="resendOtp()"
+                      [disabled]="resendCooldown > 0">
+                @if (resendCooldown > 0) {
+                  Resend in {{ resendCooldown }}s
+                } @else {
+                  Resend OTP
+                }
+              </button>
+            </div>
+          }
+
+          <!-- Back to login -->
+          <div class="text-center mt-3">
+            <a routerLink="/auth/login"
+               class="text-decoration-none text-muted small">
+              ← Back to Login
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>

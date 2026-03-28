@@ -1,0 +1,13 @@
+export interface UserProfile {
+  id:                       string;
+  firstName:                string;
+  lastName:                 string;
+  email:                    string;
+  phoneNumber?:             string;
+  address?:                 string;
+  city?:                    string;
+  createdAt:                string;
+  twoFactorEnabled:         boolean;
+  authenticatorSetupComplete: boolean;
+  roles:                    string[];
+}

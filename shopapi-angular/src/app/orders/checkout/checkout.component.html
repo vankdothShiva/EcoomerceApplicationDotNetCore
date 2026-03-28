@@ -1,0 +1,156 @@
+<div class="row">
+    <div class="col-12 mb-4">
+      <h2>🛒 Checkout</h2>
+    </div>
+
+    <!-- Empty cart -->
+    @if (cart.length === 0) {
+      <div class="col-12 text-center py-5">
+        <div style="font-size:4rem">🛒</div>
+        <h4 class="text-muted">Your cart is empty</h4>
+        <a routerLink="/products"
+           class="btn btn-dark mt-3">
+          Browse Products
+        </a>
+      </div>
+    }
+
+    @if (cart.length > 0) {
+
+      <!-- Cart Items -->
+      <div class="col-md-8">
+        <div class="card border-0 shadow-sm rounded-4">
+          <div class="card-body">
+            <h5 class="mb-4">Cart Items</h5>
+
+            @for (item of cart; track item.product.id) {
+              <div class="d-flex align-items-center
+                          border-bottom pb-3 mb-3">
+
+                <!-- Emoji icon -->
+                <div class="bg-light rounded-3 p-3 me-3
+                            text-center"
+                     style="width:60px; font-size:1.5rem">
+                  📦
+                </div>
+
+                <!-- Product info -->
+                <div class="flex-grow-1">
+                  <h6 class="mb-0">
+                    {{ item.product.name }}
+                  </h6>
+                  <small class="text-muted">
+                    ₹{{ item.product.price }} each
+                  </small>
+                </div>
+
+                <!-- Quantity controls -->
+                <div class="d-flex align-items-center gap-2">
+                  <button class="btn btn-sm btn-outline-dark"
+                    (click)="decreaseQty(item)">
+                    -
+                  </button>
+                  <span class="fw-bold px-2">
+                    {{ item.quantity }}
+                  </span>
+                  <button class="btn btn-sm btn-outline-dark"
+                    (click)="item.quantity+1">
+                    +
+                  </button>
+                </div>
+
+                <!-- Subtotal -->
+                <div class="ms-3 fw-bold" style="width:80px">
+                  ₹{{ item.product.price * item.quantity
+                      | number:'1.2-2' }}
+                </div>
+
+                <!-- Remove button -->
+                <button class="btn btn-sm btn-outline-danger ms-2"
+                        (click)="removeItem(item)">
+                  ✕
+                </button>
+
+              </div>
+            }
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Order Summary -->
+      <div class="col-md-4">
+        <div class="card border-0 shadow-sm rounded-4">
+          <div class="card-body">
+            <h5 class="mb-4">Order Summary</h5>
+
+            @for (item of cart; track item.product.id) {
+              <div class="d-flex justify-content-between mb-2">
+                <small>
+                  {{ item.product.name }}
+                  × {{ item.quantity }}
+                </small>
+                <small class="fw-bold">
+                  ₹{{ item.product.price * item.quantity
+                      | number:'1.2-2' }}
+                </small>
+              </div>
+            }
+
+            <hr>
+
+            <div class="d-flex justify-content-between
+                        mb-3">
+              <strong>Total</strong>
+              <strong class="text-success fs-5">
+                ₹{{ getTotal() | number:'1.2-2' }}
+              </strong>
+            </div>
+
+            <!-- Shipping Address -->
+            <div class="mb-3">
+              <label class="form-label fw-semibold">
+                📍 Shipping Address
+              </label>
+              <textarea
+                class="form-control"
+                rows="3"
+                [(ngModel)]="shipAddress"
+                placeholder="Enter delivery address...">
+              </textarea>
+            </div>
+
+            <!-- Error -->
+            @if (errorMessage) {
+              <div class="alert alert-danger small">
+                {{ errorMessage }}
+              </div>
+            }
+
+            <!-- Place Order button -->
+            <button
+              class="btn btn-dark w-100 py-2"
+              (click)="placeOrder()"
+              [disabled]="isLoading || !shipAddress">
+              @if (isLoading) {
+                <span class="spinner-border
+                             spinner-border-sm me-2">
+                </span>
+                Placing Order...
+              } @else {
+                Place Order ₹{{ getTotal()
+                  | number:'1.2-2' }}
+              }
+            </button>
+
+            <a routerLink="/products"
+               class="btn btn-outline-dark w-100 mt-2">
+              Continue Shopping
+            </a>
+
+          </div>
+        </div>
+      </div>
+    }
+
+  </div>

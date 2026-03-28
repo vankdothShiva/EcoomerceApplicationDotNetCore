@@ -1,0 +1,4 @@
+export interface VerifyOtpDto {
+  userId: string;
+  otp:    string;
+}

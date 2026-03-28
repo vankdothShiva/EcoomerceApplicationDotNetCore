@@ -1,0 +1,243 @@
+<div class="row justify-content-center mt-4">
+    <div class="col-md-6">
+      <div class="card shadow-lg border-0 rounded-4">
+
+        <!-- Header -->
+        <div class="card-header bg-dark text-white
+                    text-center rounded-top-4 py-4">
+          <h3 class="mb-0">✨ Create Account</h3>
+          <p class="mb-0 text-secondary">Join ShopAPI today</p>
+        </div>
+
+        <div class="card-body p-4">
+
+          <!-- Success Message -->
+          @if (successMessage) {
+            <div class="alert alert-success">
+              <h6>✅ Registration Successful!</h6>
+              <p class="mb-0">{{ successMessage }}</p>
+            </div>
+          }
+
+          <!-- Error Message -->
+          @if (errorMessage) {
+            <div class="alert alert-danger">
+              {{ errorMessage }}
+            </div>
+          }
+
+          <!-- Show form only if not registered yet -->
+          @if (!successMessage) {
+            <form [formGroup]="registerForm"
+                  (ngSubmit)="onSubmit()">
+
+              <!-- First Name + Last Name Row -->
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label class="form-label fw-semibold">
+                    First Name *
+                  </label>
+                  <input type="text"
+                    class="form-control"
+                    [class.is-invalid]="isFieldInvalid('firstName')"
+                    formControlName="firstName"
+                    placeholder="John"
+                  />
+                  @if (isFieldInvalid('firstName')) {
+                    <div class="invalid-feedback">
+                      First name is required (min 2 chars).
+                    </div>
+                  }
+                </div>
+
+                <div class="col-md-6 mb-3">
+                  <label class="form-label fw-semibold">
+                    Last Name *
+                  </label>
+                  <input type="text"
+                    class="form-control"
+                    [class.is-invalid]="isFieldInvalid('lastName')"
+                    formControlName="lastName"
+                    placeholder="Doe"
+                  />
+                  @if (isFieldInvalid('lastName')) {
+                    <div class="invalid-feedback">
+                      Last name is required (min 2 chars).
+                    </div>
+                  }
+                </div>
+              </div>
+
+              <!-- Email -->
+              <div class="mb-3">
+                <label class="form-label fw-semibold">
+                  📧 Email Address *
+                </label>
+                <input type="email"
+                  class="form-control"
+                  [class.is-invalid]="isFieldInvalid('email')"
+                  formControlName="email"
+                  placeholder="john@example.com"
+                />
+                @if (isFieldInvalid('email')) {
+                  <div class="invalid-feedback">
+                    @if (f['email'].errors?.['required']) {
+                      Email is required.
+                    }
+                    @if (f['email'].errors?.['email']) {
+                      Enter a valid email address.
+                    }
+                  </div>
+                }
+              </div>
+
+              <!-- Password -->
+              <div class="mb-3">
+                <label class="form-label fw-semibold">
+                  🔑 Password *
+                </label>
+                <div class="input-group">
+                  <input
+                    [type]="showPassword ? 'text' : 'password'"
+                    class="form-control"
+                    [class.is-invalid]="isFieldInvalid('password')"
+                    formControlName="password"
+                    placeholder="Min 8 chars, 1 uppercase, 1 number"
+                  />
+                  <button class="btn btn-outline-secondary"
+                          type="button"
+                          (click)="showPassword = !showPassword">
+                    {{ showPassword ? '🙈' : '👁️' }}
+                  </button>
+                </div>
+                @if (isFieldInvalid('password')) {
+                  <div class="text-danger small mt-1">
+                    @if (f['password'].errors?.['required']) {
+                      Password is required.
+                    }
+                    @if (f['password'].errors?.['minlength']) {
+                      Password must be at least 8 characters.
+                    }
+                    @if (f['password'].errors?.['pattern']) {
+                      Must contain uppercase letter,
+                      number and special character.
+                    }
+                  </div>
+                }
+                <!-- Password strength bar -->
+                <div class="mt-2">
+                  <div class="progress" style="height: 4px">
+                    <div class="progress-bar"
+                      [class]="getPasswordStrengthClass()"
+                      [style.width]="getPasswordStrength() + '%'">
+                    </div>
+                  </div>
+                  <small class="text-muted">
+                    Strength: {{ getPasswordStrengthLabel() }}
+                  </small>
+                </div>
+              </div>
+
+              <!-- Confirm Password -->
+              <div class="mb-3">
+                <label class="form-label fw-semibold">
+                  🔑 Confirm Password *
+                </label>
+                <input
+                  [type]="showPassword ? 'text' : 'password'"
+                  class="form-control"
+                  [class.is-invalid]="
+                    isFieldInvalid('confirmPassword') ||
+                    registerForm.errors?.['passwordMismatch']"
+                  formControlName="confirmPassword"
+                  placeholder="Repeat your password"
+                />
+                @if (registerForm.errors?.['passwordMismatch']
+                  && f['confirmPassword'].touched) {
+                  <div class="text-danger small mt-1">
+                    Passwords do not match.
+                  </div>
+                }
+              </div>
+
+              <!-- Role Selection -->
+              <div class="mb-3">
+                <label class="form-label fw-semibold">
+                  👤 I want to...
+                </label>
+                <div class="row">
+                  <!-- Customer option -->
+                  <div class="col-6">
+                    <div class="card border-2 cursor-pointer"
+                      [class.border-primary]="f['role'].value === 'Customer'"
+                      [class.bg-primary]="f['role'].value === 'Customer'"
+                      [class.text-white]="f['role'].value === 'Customer'"
+                      (click)="setRole('Customer')"
+                      style="cursor:pointer">
+                      <div class="card-body text-center py-3">
+                        <div class="fs-3">🛒</div>
+                        <div class="fw-bold">Shop</div>
+                        <small>Buy products</small>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Seller option -->
+                  <div class="col-6">
+                    <div class="card border-2"
+                      [class.border-success]="f['role'].value === 'Seller'"
+                      [class.bg-success]="f['role'].value === 'Seller'"
+                      [class.text-white]="f['role'].value === 'Seller'"
+                      (click)="setRole('Seller')"
+                      style="cursor:pointer">
+                      <div class="card-body text-center py-3">
+                        <div class="fs-3">🏪</div>
+                        <div class="fw-bold">Sell</div>
+                        <small>List products</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- City (optional) -->
+              <div class="mb-3">
+                <label class="form-label fw-semibold">
+                  🏙️ City (optional)
+                </label>
+                <input type="text"
+                  class="form-control"
+                  formControlName="city"
+                  placeholder="Hyderabad"
+                />
+              </div>
+
+              <!-- Submit Button -->
+              <button type="submit"
+                class="btn btn-dark w-100 py-2"
+                [disabled]="isLoading">
+                @if (isLoading) {
+                  <span class="spinner-border spinner-border-sm
+                               me-2"></span>
+                  Creating account...
+                } @else {
+                  Create Account
+                }
+              </button>
+
+            </form>
+          }
+
+          <!-- Login Link -->
+          <hr>
+          <p class="text-center mb-0">
+            Already have an account?
+            <a routerLink="/auth/login"
+               class="text-decoration-none fw-bold">
+              Login here
+            </a>
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>

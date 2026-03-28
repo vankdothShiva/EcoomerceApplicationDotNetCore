@@ -1,0 +1,110 @@
+ <div class="row">
+    <div class="col-12 mb-4">
+      <h2>📦 My Orders</h2>
+    </div>
+
+    <!-- Success message from checkout -->
+    @if (successMessage) {
+      <div class="col-12">
+        <div class="alert alert-success">
+          ✅ {{ successMessage }}
+        </div>
+      </div>
+    }
+
+    <!-- Loading -->
+    @if (isLoading) {
+      <div class="col-12 text-center py-5">
+        <div class="spinner-border text-dark"></div>
+      </div>
+    }
+
+    <!-- No orders -->
+    @if (!isLoading && orders.length === 0) {
+      <div class="col-12 text-center py-5">
+        <div style="font-size:4rem">📭</div>
+        <h4 class="text-muted">No orders yet</h4>
+        <a routerLink="/products"
+           class="btn btn-dark mt-3">
+          Start Shopping
+        </a>
+      </div>
+    }
+
+    <!-- Orders list -->
+    @for (order of orders; track order.id) {
+      <div class="col-12 mb-3">
+        <div class="card border-0 shadow-sm rounded-4">
+          <div class="card-body">
+
+            <!-- Order header -->
+            <div class="d-flex justify-content-between
+                        align-items-start mb-3">
+              <div>
+                <h6 class="mb-0">
+                  Order #{{ order.id }}
+                </h6>
+                <small class="text-muted">
+                  {{ order.createdAt | date:'medium' }}
+                </small>
+              </div>
+
+              <!-- Status badge -->
+              <span class="badge fs-6"
+                [class]="getStatusClass(order.status)">
+                {{ order.status }}
+              </span>
+            </div>
+
+            <!-- Order items -->
+            @for (item of order.items; track item.productId) {
+              <div class="d-flex align-items-center
+                          mb-2">
+                <span class="me-3">📦</span>
+                <span class="flex-grow-1">
+                  {{ item.productName }}
+                </span>
+                <span class="text-muted me-3">
+                  × {{ item.quantity }}
+                </span>
+                <span class="fw-bold">
+                  ₹{{ item.subTotal | number:'1.2-2' }}
+                </span>
+              </div>
+            }
+
+            <hr class="my-2">
+
+            <!-- Footer -->
+            <div class="d-flex justify-content-between
+                        align-items-center">
+              <div>
+                <strong>Total: </strong>
+                <span class="text-success fw-bold">
+                  ₹{{ order.totalAmount | number:'1.2-2' }}
+                </span>
+              </div>
+
+              <!-- Cancel button (Pending only) -->
+              @if (order.status === 'Pending') {
+                <button
+                  class="btn btn-sm btn-outline-danger"
+                  (click)="cancelOrder(order.id)"
+                  [disabled]="cancellingId === order.id">
+                  @if (cancellingId === order.id) {
+                    <span class="spinner-border
+                                 spinner-border-sm">
+                    </span>
+                  } @else {
+                    Cancel Order
+                  }
+                </button>
+              }
+            </div>
+
+          </div>
+        </div>
+      </div>
+    }
+
+  </div>
