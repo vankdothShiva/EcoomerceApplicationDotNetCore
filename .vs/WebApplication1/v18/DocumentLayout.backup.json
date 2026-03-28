@@ -3,36 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7D1CB7D5-40E1-4705-B268-FCDB5F187F20}|WebApplication1.csproj|c:\\users\\vankd\\source\\repos\\ecomm\\webapplication1\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D1CB7D5-40E1-4705-B268-FCDB5F187F20}|WebApplication1.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7D1CB7D5-40E1-4705-B268-FCDB5F187F20}|WebApplication1.csproj|c:\\users\\vankd\\source\\repos\\ecomm\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D1CB7D5-40E1-4705-B268-FCDB5F187F20}|WebApplication1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D1CB7D5-40E1-4705-B268-FCDB5F187F20}|WebApplication1.csproj|c:\\users\\vankd\\source\\repos\\ecomm\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7D1CB7D5-40E1-4705-B268-FCDB5F187F20}|WebApplication1.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{7D1CB7D5-40E1-4705-B268-FCDB5F187F20}|WebApplication1.csproj|c:\\users\\vankd\\source\\repos\\ecomm\\webapplication1\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D1CB7D5-40E1-4705-B268-FCDB5F187F20}|WebApplication1.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D1CB7D5-40E1-4705-B268-FCDB5F187F20}|WebApplication1.csproj|c:\\users\\vankd\\source\\repos\\ecomm\\webapplication1\\services\\facebookauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D1CB7D5-40E1-4705-B268-FCDB5F187F20}|WebApplication1.csproj|solutionrelative:services\\facebookauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7D1CB7D5-40E1-4705-B268-FCDB5F187F20}|WebApplication1.csproj|c:\\users\\vankd\\source\\repos\\ecomm\\webapplication1\\webapplication1.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{7D1CB7D5-40E1-4705-B268-FCDB5F187F20}|WebApplication1.csproj|solutionrelative:webapplication1.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7D1CB7D5-40E1-4705-B268-FCDB5F187F20}|WebApplication1.csproj|c:\\users\\vankd\\source\\repos\\ecomm\\webapplication1\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D1CB7D5-40E1-4705-B268-FCDB5F187F20}|WebApplication1.csproj|solutionrelative:controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D1CB7D5-40E1-4705-B268-FCDB5F187F20}|WebApplication1.csproj|c:\\users\\vankd\\source\\repos\\ecomm\\webapplication1\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D1CB7D5-40E1-4705-B268-FCDB5F187F20}|WebApplication1.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7D1CB7D5-40E1-4705-B268-FCDB5F187F20}|WebApplication1.csproj|c:\\users\\vankd\\source\\repos\\ecomm\\webapplication1\\controllers\\mfacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D1CB7D5-40E1-4705-B268-FCDB5F187F20}|WebApplication1.csproj|solutionrelative:controllers\\mfacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D1CB7D5-40E1-4705-B268-FCDB5F187F20}|WebApplication1.csproj|c:\\users\\vankd\\source\\repos\\ecomm\\webapplication1\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D1CB7D5-40E1-4705-B268-FCDB5F187F20}|WebApplication1.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7D1CB7D5-40E1-4705-B268-FCDB5F187F20}|WebApplication1.csproj|c:\\users\\vankd\\source\\repos\\ecomm\\webapplication1\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D1CB7D5-40E1-4705-B268-FCDB5F187F20}|WebApplication1.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D1CB7D5-40E1-4705-B268-FCDB5F187F20}|WebApplication1.csproj|c:\\users\\vankd\\source\\repos\\ecomm\\webapplication1\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D1CB7D5-40E1-4705-B268-FCDB5F187F20}|WebApplication1.csproj|solutionrelative:dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D1CB7D5-40E1-4705-B268-FCDB5F187F20}|WebApplication1.csproj|c:\\users\\vankd\\source\\repos\\ecomm\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7D1CB7D5-40E1-4705-B268-FCDB5F187F20}|WebApplication1.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D1CB7D5-40E1-4705-B268-FCDB5F187F20}|WebApplication1.csproj|c:\\users\\vankd\\source\\repos\\ecomm\\webapplication1\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D1CB7D5-40E1-4705-B268-FCDB5F187F20}|WebApplication1.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D1CB7D5-40E1-4705-B268-FCDB5F187F20}|WebApplication1.csproj|c:\\users\\vankd\\source\\repos\\ecomm\\webapplication1\\services\\facebookauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D1CB7D5-40E1-4705-B268-FCDB5F187F20}|WebApplication1.csproj|solutionrelative:services\\facebookauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D1CB7D5-40E1-4705-B268-FCDB5F187F20}|WebApplication1.csproj|c:\\users\\vankd\\source\\repos\\ecomm\\webapplication1\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D1CB7D5-40E1-4705-B268-FCDB5F187F20}|WebApplication1.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D1CB7D5-40E1-4705-B268-FCDB5F187F20}|WebApplication1.csproj|c:\\users\\vankd\\source\\repos\\ecomm\\webapplication1\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D1CB7D5-40E1-4705-B268-FCDB5F187F20}|WebApplication1.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7D1CB7D5-40E1-4705-B268-FCDB5F187F20}|WebApplication1.csproj|c:\\users\\vankd\\source\\repos\\ecomm\\webapplication1\\migrations\\20260309170323_initialidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -79,14 +95,6 @@
       "RelativeMoniker": "D:0:0:{7D1CB7D5-40E1-4705-B268-FCDB5F187F20}|WebApplication1.csproj|solutionrelative:dtos\\verifyotpdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D1CB7D5-40E1-4705-B268-FCDB5F187F20}|WebApplication1.csproj|c:\\users\\vankd\\source\\repos\\ecomm\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D1CB7D5-40E1-4705-B268-FCDB5F187F20}|WebApplication1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D1CB7D5-40E1-4705-B268-FCDB5F187F20}|WebApplication1.csproj|c:\\users\\vankd\\source\\repos\\ecomm\\webapplication1\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D1CB7D5-40E1-4705-B268-FCDB5F187F20}|WebApplication1.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7D1CB7D5-40E1-4705-B268-FCDB5F187F20}|WebApplication1.csproj|c:\\users\\vankd\\source\\repos\\ecomm\\webapplication1\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D1CB7D5-40E1-4705-B268-FCDB5F187F20}|WebApplication1.csproj|solutionrelative:data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -131,10 +139,6 @@
       "RelativeMoniker": "D:0:0:{7D1CB7D5-40E1-4705-B268-FCDB5F187F20}|WebApplication1.csproj|solutionrelative:dtos\\updateprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D1CB7D5-40E1-4705-B268-FCDB5F187F20}|WebApplication1.csproj|c:\\users\\vankd\\source\\repos\\ecomm\\webapplication1\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D1CB7D5-40E1-4705-B268-FCDB5F187F20}|WebApplication1.csproj|solutionrelative:dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7D1CB7D5-40E1-4705-B268-FCDB5F187F20}|WebApplication1.csproj|c:\\users\\vankd\\source\\repos\\ecomm\\webapplication1\\dtos\\externalauthdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D1CB7D5-40E1-4705-B268-FCDB5F187F20}|WebApplication1.csproj|solutionrelative:dtos\\externalauthdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -170,28 +174,92 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WebApplication1.http",
+              "DocumentMoniker": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\WebApplication1.http",
+              "RelativeDocumentMoniker": "WebApplication1.http",
+              "ToolTip": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\WebApplication1.http",
+              "RelativeToolTip": "WebApplication1.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-03-28T12:52:03.993Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\DTOs\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\DTOs\\RegisterDto.cs",
+              "RelativeToolTip": "DTOs\\RegisterDto.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAwwBgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T06:34:38.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAC8AAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T06:34:38.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\WeatherForecast.cs",
+              "RelativeToolTip": "WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T06:34:38.303Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAAANEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T02:13:57.526Z",
+              "WhenOpened": "2026-03-28T06:34:38.279Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-28T06:34:38.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MfaController.cs",
+              "DocumentMoniker": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\Controllers\\MfaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MfaController.cs",
+              "ToolTip": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\Controllers\\MfaController.cs",
+              "RelativeToolTip": "Controllers\\MfaController.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAiwFkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T06:34:38.216Z"
             },
             {
               "$type": "Document",
@@ -203,11 +271,23 @@
               "RelativeToolTip": "Controllers\\ProfileController.cs",
               "ViewState": "AgIAAGUAAAAAAAAAAAAAAHIAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T16:49:13.149Z"
+              "WhenOpened": "2026-03-28T06:34:38.203Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T06:34:38.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "FacebookAuthService.cs",
               "DocumentMoniker": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\Services\\FacebookAuthService.cs",
               "RelativeDocumentMoniker": "Services\\FacebookAuthService.cs",
@@ -215,23 +295,11 @@
               "RelativeToolTip": "Services\\FacebookAuthService.cs",
               "ViewState": "AgIAADQAAAAAAAAAAAAYwFsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T16:40:52.99Z"
+              "WhenOpened": "2026-03-28T06:34:38.216Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-09T16:16:20.812Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "OrderController.cs",
               "DocumentMoniker": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
@@ -239,23 +307,11 @@
               "RelativeToolTip": "Controllers\\OrderController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T02:14:50.443Z"
+              "WhenOpened": "2026-03-28T06:34:38.216Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MfaController.cs",
-              "DocumentMoniker": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\Controllers\\MfaController.cs",
-              "RelativeDocumentMoniker": "Controllers\\MfaController.cs",
-              "ToolTip": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\Controllers\\MfaController.cs",
-              "RelativeToolTip": "Controllers\\MfaController.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAiwFkAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T17:34:46.624Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
@@ -263,23 +319,11 @@
               "RelativeToolTip": "Controllers\\AuthController.cs",
               "ViewState": "AgIAAHwBAAAAAAAAAAAcwIYBAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T16:42:29.955Z"
+              "WhenOpened": "2026-03-28T06:34:38.216Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "Controllers\\AdminController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAxwC8AAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T02:15:58.31Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "OrderItemResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\DTOs\\OrderItemResponseDto.cs",
               "RelativeDocumentMoniker": "DTOs\\OrderItemResponseDto.cs",
@@ -287,11 +331,11 @@
               "RelativeToolTip": "DTOs\\OrderItemResponseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T02:13:14.86Z"
+              "WhenOpened": "2026-03-28T06:34:38.232Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "20260309170323_InitialIdentity.cs",
               "DocumentMoniker": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\Migrations\\20260309170323_InitialIdentity.cs",
               "RelativeDocumentMoniker": "Migrations\\20260309170323_InitialIdentity.cs",
@@ -299,11 +343,11 @@
               "RelativeToolTip": "Migrations\\20260309170323_InitialIdentity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T17:03:24.98Z"
+              "WhenOpened": "2026-03-28T06:34:38.232Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "OrderResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\DTOs\\OrderResponseDto.cs",
               "RelativeDocumentMoniker": "DTOs\\OrderResponseDto.cs",
@@ -311,11 +355,11 @@
               "RelativeToolTip": "DTOs\\OrderResponseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T02:12:49.628Z"
+              "WhenOpened": "2026-03-28T06:34:38.247Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "UpdateOrderStatusDto.cs",
               "DocumentMoniker": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\DTOs\\UpdateOrderStatusDto.cs",
               "RelativeDocumentMoniker": "DTOs\\UpdateOrderStatusDto.cs",
@@ -323,11 +367,11 @@
               "RelativeToolTip": "DTOs\\UpdateOrderStatusDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T02:12:08.214Z"
+              "WhenOpened": "2026-03-28T06:34:38.247Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "OrderItemDto.cs",
               "DocumentMoniker": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\DTOs\\OrderItemDto.cs",
               "RelativeDocumentMoniker": "DTOs\\OrderItemDto.cs",
@@ -335,11 +379,11 @@
               "RelativeToolTip": "DTOs\\OrderItemDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T02:11:21.367Z"
+              "WhenOpened": "2026-03-28T06:34:38.247Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "CreateOrderDto.cs",
               "DocumentMoniker": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\DTOs\\CreateOrderDto.cs",
               "RelativeDocumentMoniker": "DTOs\\CreateOrderDto.cs",
@@ -347,11 +391,11 @@
               "RelativeToolTip": "DTOs\\CreateOrderDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T02:10:52.279Z"
+              "WhenOpened": "2026-03-28T06:34:38.247Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "ProductResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\DTOs\\ProductResponseDto.cs",
               "RelativeDocumentMoniker": "DTOs\\ProductResponseDto.cs",
@@ -359,11 +403,11 @@
               "RelativeToolTip": "DTOs\\ProductResponseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T02:10:21.952Z"
+              "WhenOpened": "2026-03-28T06:34:38.263Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "UpdateProductDto.cs",
               "DocumentMoniker": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\DTOs\\UpdateProductDto.cs",
               "RelativeDocumentMoniker": "DTOs\\UpdateProductDto.cs",
@@ -371,11 +415,11 @@
               "RelativeToolTip": "DTOs\\UpdateProductDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T02:09:54.594Z"
+              "WhenOpened": "2026-03-28T06:34:38.263Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "CreateProductDto.cs",
               "DocumentMoniker": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\DTOs\\CreateProductDto.cs",
               "RelativeDocumentMoniker": "DTOs\\CreateProductDto.cs",
@@ -383,11 +427,11 @@
               "RelativeToolTip": "DTOs\\CreateProductDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-10T02:08:29.648Z"
+              "WhenOpened": "2026-03-28T06:34:38.263Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "SeedData.cs",
               "DocumentMoniker": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\Data\\SeedData.cs",
               "RelativeDocumentMoniker": "Data\\SeedData.cs",
@@ -395,11 +439,11 @@
               "RelativeToolTip": "Data\\SeedData.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAQwC0AAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T16:30:37.317Z"
+              "WhenOpened": "2026-03-28T06:34:38.263Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "ChangePasswordDto.cs",
               "DocumentMoniker": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\DTOs\\ChangePasswordDto.cs",
               "RelativeDocumentMoniker": "DTOs\\ChangePasswordDto.cs",
@@ -407,23 +451,11 @@
               "RelativeToolTip": "DTOs\\ChangePasswordDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T16:46:21.915Z"
+              "WhenOpened": "2026-03-28T06:34:38.279Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAKgAAAAAAAAAAAAuwK4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T03:47:12.721Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "VerifyOtpDto.cs",
               "DocumentMoniker": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\DTOs\\VerifyOtpDto.cs",
               "RelativeDocumentMoniker": "DTOs\\VerifyOtpDto.cs",
@@ -431,11 +463,11 @@
               "RelativeToolTip": "DTOs\\VerifyOtpDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T16:24:18.348Z"
+              "WhenOpened": "2026-03-28T06:34:38.279Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\Services\\EmailService.cs",
               "RelativeDocumentMoniker": "Services\\EmailService.cs",
@@ -443,11 +475,11 @@
               "RelativeToolTip": "Services\\EmailService.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAkwDYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T16:39:52.661Z"
+              "WhenOpened": "2026-03-28T06:34:38.295Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\Models\\Order.cs",
               "RelativeDocumentMoniker": "Models\\Order.cs",
@@ -455,23 +487,11 @@
               "RelativeToolTip": "Models\\Order.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T16:07:32.424Z"
+              "WhenOpened": "2026-03-28T06:34:38.299Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "WeatherForecast.cs",
-              "ToolTip": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\WeatherForecast.cs",
-              "RelativeToolTip": "WeatherForecast.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T17:21:37.56Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "AppUser.cs",
               "DocumentMoniker": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\Models\\AppUser.cs",
               "RelativeDocumentMoniker": "Models\\AppUser.cs",
@@ -479,11 +499,11 @@
               "RelativeToolTip": "Models\\AppUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T06:09:08.852Z"
+              "WhenOpened": "2026-03-28T06:34:38.307Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "ResetPasswordDto.cs",
               "DocumentMoniker": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\DTOs\\ResetPasswordDto.cs",
               "RelativeDocumentMoniker": "DTOs\\ResetPasswordDto.cs",
@@ -491,11 +511,11 @@
               "RelativeToolTip": "DTOs\\ResetPasswordDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T16:44:53.138Z"
+              "WhenOpened": "2026-03-28T06:34:38.311Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "ForgotPasswordDto.cs",
               "DocumentMoniker": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\DTOs\\ForgotPasswordDto.cs",
               "RelativeDocumentMoniker": "DTOs\\ForgotPasswordDto.cs",
@@ -503,11 +523,11 @@
               "RelativeToolTip": "DTOs\\ForgotPasswordDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T16:45:41.062Z"
+              "WhenOpened": "2026-03-28T06:34:38.315Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Models\\Product.cs",
@@ -515,11 +535,11 @@
               "RelativeToolTip": "Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T16:07:19.689Z"
+              "WhenOpened": "2026-03-28T06:34:38.317Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "TotpService.cs",
               "DocumentMoniker": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\Services\\TotpService.cs",
               "RelativeDocumentMoniker": "Services\\TotpService.cs",
@@ -527,11 +547,11 @@
               "RelativeToolTip": "Services\\TotpService.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAAYwEUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T16:40:34.064Z"
+              "WhenOpened": "2026-03-28T06:34:38.321Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "TokenService.cs",
               "DocumentMoniker": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\Services\\TokenService.cs",
               "RelativeDocumentMoniker": "Services\\TokenService.cs",
@@ -539,11 +559,11 @@
               "RelativeToolTip": "Services\\TokenService.cs",
               "ViewState": "AgIAAGoAAAAAAAAAAAAYwH8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T16:39:25.91Z"
+              "WhenOpened": "2026-03-28T06:34:38.325Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
@@ -551,11 +571,11 @@
               "RelativeToolTip": "Data\\AppDbContext.cs",
               "ViewState": "AgIAAC8AAAAAAAAAAAAYwEQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T16:28:15.468Z"
+              "WhenOpened": "2026-03-28T06:34:38.328Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "UpdateProfileDto.cs",
               "DocumentMoniker": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\DTOs\\UpdateProfileDto.cs",
               "RelativeDocumentMoniker": "DTOs\\UpdateProfileDto.cs",
@@ -563,11 +583,11 @@
               "RelativeToolTip": "DTOs\\UpdateProfileDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T16:25:27.682Z"
+              "WhenOpened": "2026-03-28T06:34:38.334Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "ExternalAuthDto.cs",
               "DocumentMoniker": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\DTOs\\ExternalAuthDto.cs",
               "RelativeDocumentMoniker": "DTOs\\ExternalAuthDto.cs",
@@ -575,11 +595,11 @@
               "RelativeToolTip": "DTOs\\ExternalAuthDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T16:25:15.13Z"
+              "WhenOpened": "2026-03-28T06:34:38.338Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "AuthResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\DTOs\\AuthResponseDto.cs",
               "RelativeDocumentMoniker": "DTOs\\AuthResponseDto.cs",
@@ -587,11 +607,11 @@
               "RelativeToolTip": "DTOs\\AuthResponseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T16:24:53.355Z"
+              "WhenOpened": "2026-03-28T06:34:38.344Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "RefreshTokenDto.cs",
               "DocumentMoniker": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\DTOs\\RefreshTokenDto.cs",
               "RelativeDocumentMoniker": "DTOs\\RefreshTokenDto.cs",
@@ -599,11 +619,11 @@
               "RelativeToolTip": "DTOs\\RefreshTokenDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T16:24:38.504Z"
+              "WhenOpened": "2026-03-28T06:34:38.348Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\DTOs\\LoginDto.cs",
               "RelativeDocumentMoniker": "DTOs\\LoginDto.cs",
@@ -611,23 +631,11 @@
               "RelativeToolTip": "DTOs\\LoginDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T16:23:59.748Z"
+              "WhenOpened": "2026-03-28T06:34:38.352Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "RegisterDto.cs",
-              "DocumentMoniker": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\DTOs\\RegisterDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\RegisterDto.cs",
-              "ToolTip": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\DTOs\\RegisterDto.cs",
-              "RelativeToolTip": "DTOs\\RegisterDto.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAwwBgAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T16:23:01.33Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "RefreshToken.cs",
               "DocumentMoniker": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\Models\\RefreshToken.cs",
               "RelativeDocumentMoniker": "Models\\RefreshToken.cs",
@@ -635,11 +643,11 @@
               "RelativeToolTip": "Models\\RefreshToken.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T16:22:07.622Z"
+              "WhenOpened": "2026-03-28T06:34:38.362Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "OrderItem.cs",
               "DocumentMoniker": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\Models\\OrderItem.cs",
               "RelativeDocumentMoniker": "Models\\OrderItem.cs",
@@ -647,11 +655,11 @@
               "RelativeToolTip": "Models\\OrderItem.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAwAQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T16:07:49.975Z"
+              "WhenOpened": "2026-03-28T06:34:38.362Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "WebApplication1.csproj",
               "DocumentMoniker": "C:\\Users\\vankd\\source\\repos\\Ecomm\\WebApplication1\\WebApplication1.csproj",
               "RelativeDocumentMoniker": "WebApplication1.csproj",
@@ -659,7 +667,7 @@
               "RelativeToolTip": "WebApplication1.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-08T11:13:20.006Z"
+              "WhenOpened": "2026-03-28T06:34:38.374Z"
             }
           ]
         }
