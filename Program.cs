@@ -9,6 +9,17 @@ using ShopAPI.Services;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAngular",
+        policy =>
+        {
+            policy.WithOrigins("http://localhost:4200") // Angular app URL
+                  .AllowAnyHeader()
+                  .AllowAnyMethod()
+                  .AllowCredentials();
+        });
+});
 
 // ════════════════════════════════════════
 // 1. DATABASE
@@ -196,6 +207,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseCors("AllowAngular");
 app.UseAuthentication();  // 1st: Who are you?
 app.UseAuthorization();   // 2nd: What can you do?
 app.MapControllers();

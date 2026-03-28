@@ -13,6 +13,7 @@ namespace ShopAPI.Models
         public int Stock { get; set; }
         public string Category { get; set; } = string.Empty;
         public bool IsActive { get; set; } = true;
+        public string? ImageUrl { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
         // ── Who created this product ──

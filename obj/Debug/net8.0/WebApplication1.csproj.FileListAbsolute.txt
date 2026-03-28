@@ -146,3 +146,8 @@ C:\Users\vankd\source\repos\Ecomm\WebApplication1\obj\Debug\net8.0\refint\WebApp
 C:\Users\vankd\source\repos\Ecomm\WebApplication1\obj\Debug\net8.0\WebApplication1.pdb
 C:\Users\vankd\source\repos\Ecomm\WebApplication1\obj\Debug\net8.0\WebApplication1.genruntimeconfig.cache
 C:\Users\vankd\source\repos\Ecomm\WebApplication1\obj\Debug\net8.0\ref\WebApplication1.dll
+C:\Users\vankd\source\repos\Ecomm\WebApplication1\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\vankd\source\repos\Ecomm\WebApplication1\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\vankd\source\repos\Ecomm\WebApplication1\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\vankd\source\repos\Ecomm\WebApplication1\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\vankd\source\repos\Ecomm\WebApplication1\obj\Debug\net8.0\swae.build.ex.cache
