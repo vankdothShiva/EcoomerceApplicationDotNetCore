@@ -1,8 +1,0 @@
- /* Active nav link highlight */
-    .nav-link.active {
-      font-weight: bold;
-      color: white !important;
-    }
-    main {
-      min-height: 80vh; /* page content takes most of screen */
-    }
